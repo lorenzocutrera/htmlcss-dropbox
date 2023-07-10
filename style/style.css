@@ -48,7 +48,7 @@ nav {
 
 .inizia{
     background-color: #0061ff;
-    color: #ffffff;
+    color: white;
     padding: 5px 10px;
     font-size: 15px;
     text-decoration: none;
@@ -107,6 +107,48 @@ h1{
     text-align: center;
 }
 
-.due img{
-    margin-top: px;
+/* packs section */
+h2{
+    font-size: 40px;
+}
+
+.fatturazione{
+    margin: 20px 0px;
+    gap: 30px;
+}
+
+.packs{
+    margin-top: 150px;
+}
+
+.row-packs{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pack{
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    width: calc(100% / 3 - 20px);
+    height: 1000px;
+}
+
+.pack-title{
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
+    border: 1px solid lightgrey;
+}
+
+.pack-cont{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: greenyellow;
+}
+
+
+.team{
+    height: 300px;
+    border: 1px solid lightgrey;
+    margin-top: 25px;
 }
