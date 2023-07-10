@@ -107,6 +107,10 @@ h1{
     text-align: center;
 }
 
+.fa-arrow-down{
+    font-size: 50px;
+}
+
 /* packs section */
 h2{
     font-size: 40px;
@@ -126,17 +130,17 @@ h2{
     flex-wrap: wrap;
 }
 .pack{
-    flex-direction: column;
     border: 1px solid lightgrey;
     width: calc(100% / 3 - 20px);
     height: 1000px;
 }
 
 .pack-title{
-    text-align: center;
-    vertical-align: middle;
+    justify-content: center;
+    padding: 8px;
     height: 40px;
     border: 1px solid lightgrey;
+    gap: 8px;
 }
 
 .pack-cont{
@@ -145,6 +149,46 @@ h2{
     margin: auto;
     background-color: greenyellow;
 }
+
+ul{
+    list-style: none;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.pack h3{
+    padding: 20px 0px;
+}
+
+.mese{
+    color: lightgray;
+    padding: 20px 0px 40px 0px;
+}
+
+.pack li{
+    padding: 15px 0px;
+}
+
+.prova{
+    text-align: center;
+    background-color: #0061ff;
+    height: 40px;
+    vertical-align: middle;
+    padding: 8px;
+    margin:  50px 0px;
+}
+.prova a{
+    text-decoration: none;
+    color: white;
+}
+
+.fa-check{
+    color: #0061ff;
+}
+
+
 
 
 .team{
