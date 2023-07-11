@@ -225,11 +225,11 @@ width: 40%;
     height: 500px;
 }
 .contact-row .left{
-    width: 60%;
+    width: 70%;
 }
 
 .contact-row .right{
-    width: 40%;
+    width: 30%;
 }
 
 .left img{
@@ -249,4 +249,29 @@ width: 40%;
     border: solid;
     padding: 10px;
     color: black;
+}
+
+
+/* operazioni */
+
+.opera{
+    margin-top: 400px;
+}
+
+.opera h2{
+    margin-bottom: 50px;
+}
+
+.opera-row{
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc(100% / 3);
+    min-height: 200px;
+    padding: 20px;
+}
+
+.card h3{
+    margin-bottom: 30px;
 }
