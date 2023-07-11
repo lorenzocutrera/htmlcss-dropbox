@@ -19,7 +19,7 @@ body {
 
 
 header {
-    height: 50px;    
+    height: 70px;    
 }
 
 .d-flex {
@@ -30,13 +30,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-
 }
 
 .menu{
     justify-content: space-evenly;
     gap: 20px;
-
+    align-items: center;
 }
 
 .menu a{
@@ -56,7 +55,6 @@ nav {
 .container{
     width: 1170px;
     margin: auto;
-    height: 100vh;
 }
 
 .jumbotron{
@@ -275,3 +273,152 @@ width: 40%;
 .card h3{
     margin-bottom: 30px;
 }
+
+
+
+/* clients */
+.clients{
+    margin-top: 200px;
+}
+
+.clients h2{
+    margin-bottom: 50px;
+}
+
+/* brand */
+
+.brands-row{
+    margin-top: 100px;
+    min-height: 400px;
+    background-color: lightgreen;
+}
+
+.brands-cont{
+    width: calc(100% / 3);
+    background-color: #f5f5f5;
+    flex-wrap: wrap;
+}
+
+.brand{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* designit */
+.designit{
+    background-color: #a3d39b;
+}
+.designit img{
+    filter: invert(1);
+}
+
+/* asu */
+.asu{
+    background-color: #61082c;  
+}
+.asu img{
+    filter: invert(1);
+}
+
+/* florida */
+.florida{
+    background-color: #0093ce;
+}
+.florida img{
+    filter: invert(1);
+}
+
+/* topps */
+.topps{
+    background-color: #ff1d1d;
+}
+.topps img{
+    filter: invert(1);
+}
+
+/* world */
+.world{
+    background-color: #d5001f;
+}
+.world img{
+    filter: invert(1);
+}
+
+/* hearst */
+.hearst{
+    background-color: #b4d1e7;
+}
+.hearst img{
+    filter: invert(1);
+}
+
+/* lonely */
+.lonely{
+    background-color: #0c2481;
+}
+.lonely img{
+    filter: invert(1);
+}
+
+/* clear */
+.clear{
+    background-color: #ffd831;
+}
+.clear img{
+    filter: invert(1);
+}
+
+
+.center{
+    padding: 30px;
+}
+.center p{
+    color: rgb(93, 92, 92);
+}
+
+.clients-footer{
+    min-height: 300px;
+    background-color: #b4d1e7;
+    align-items: center;
+}
+
+.free-row{
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.free-row h2{
+    color: #61082c;
+}
+
+.free-row a{
+    text-decoration: none;
+    background-color: white;
+    color: rgb(93, 92, 92);
+    padding: 10px 40px;
+}
+
+
+/* questions */
+.questions{
+    margin: 100px 0px;
+}
+
+.questions h2{
+    margin-bottom: 50px;
+}
+
+.question{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.risposta{
+    color: rgb(93, 92, 92);
+    display: none;
+}
+
+
+/* footer */
