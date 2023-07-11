@@ -57,6 +57,8 @@ nav {
     margin: auto;
 }
 
+
+/* jumbotron */
 .jumbotron{
     background-color: #b4d1e7;
     height: 620px;
@@ -67,22 +69,22 @@ h1{
     font-size: 80px;
 }
 
-.uno{
+.coluno{
     width: 30%;
     height: 400px;
     flex-direction: column;
     justify-content: space-between;
 
 }
-.due{
+.coldue{
     width: 70%;
 }
 
-.uno p, span{
+.coluno p, span{
     margin-bottom: 2rem;
 }
 
-.uno a{
+.coluno a{
     color: white;
     text-decoration: none;
     
@@ -422,3 +424,36 @@ width: 40%;
 
 
 /* footer */
+
+footer{
+    background-color: black;
+    height: 500px;
+    color: white;
+}
+
+.footer-row{
+    padding: 80px 0px 50px 0px;
+}
+
+.col {
+    flex-direction: column;
+    width: calc(100% / 5);
+}
+
+.col h4{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.col a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
+
+.lang{
+    padding-top: 40px;
+    color: gray;
+}
