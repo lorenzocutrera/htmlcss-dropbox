@@ -20,6 +20,9 @@ body {
 
 header {
     height: 70px;    
+    background-color: white;
+    position: sticky;
+    top: 0;
 }
 
 .d-flex {
@@ -27,9 +30,10 @@ header {
 }
 
 nav {
+    height: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 0px 20px;
 }
 
 .menu{
@@ -43,6 +47,13 @@ nav {
     color: black;
     font-size: 12px;
 }
+.box{
+    height: 70px;
+    align-items: center;
+}
+.box:hover{
+    border-bottom: solid black;
+}
 
 .menu .inizia{
     background-color: #0061ff;
@@ -51,6 +62,10 @@ nav {
     font-size: 12px;
     text-decoration: none;
 }
+.inizia:hover{
+    filter: saturate(10);
+}
+
 
 .container{
     width: 1170px;
@@ -101,9 +116,16 @@ h1{
     width: 250px;
     text-align: center;
 }
+.btn:hover{
+    filter: saturate(10);
+}
+
 
 .fa-arrow-down{
     font-size: 50px;
+}
+.fa-arrow-down:hover{
+    color: orangered;
 }
 
 /* packs section */
@@ -135,7 +157,7 @@ h2{
     justify-content: center;
     padding: 8px;
     height: 40px;
-    border: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
     gap: 8px;
 }
 
@@ -173,6 +195,9 @@ h3{
     vertical-align: middle;
     padding: 8px;
     margin:  50px 0px;
+}
+.prova:hover{
+    filter: saturate(10);
 }
 .prova a{
     text-decoration: none;
@@ -244,13 +269,16 @@ width: 40%;
     padding: 20px 0px 50px 0px;
 }
 
-.contact-row .right a{
+.contact-row a{
     text-decoration: none;
     border: solid;
     padding: 10px;
     color: black;
 }
-
+.contact-row a:hover{
+    background-color: black;
+    color: white;
+}
 
 /* operazioni */
 
@@ -270,6 +298,9 @@ width: 40%;
     width: calc(100% / 3);
     min-height: 200px;
     padding: 20px;
+}
+.card:hover{
+    box-shadow: 5px 5px 11px 0px gray;
 }
 
 .card h3{
@@ -306,6 +337,10 @@ width: 40%;
     height: 50%;
     justify-content: center;
     align-items: center;
+}
+
+.brand:hover{
+    border: 5px inset grey;
 }
 
 /* designit */
@@ -395,6 +430,7 @@ width: 40%;
     color: #61082c;
 }
 
+
 .free-row a{
     text-decoration: none;
     background-color: white;
@@ -402,6 +438,10 @@ width: 40%;
     padding: 10px 40px;
 }
 
+.free-row a:hover{
+    background-color: black;
+    color: white;
+}
 
 /* questions */
 .questions{
@@ -417,11 +457,23 @@ width: 40%;
     margin-top: 20px;
 }
 
+
 .risposta{
+    padding: 20px 0px;
     color: rgb(93, 92, 92);
     display: none;
 }
 
+.domanda:hover .risposta{
+    display: block;
+}
+
+span{
+    transition: 1s;
+}
+.question:hover span{
+    transform: rotate(180deg) 
+}
 
 /* footer */
 
@@ -444,6 +496,9 @@ footer{
     margin-bottom: 30px;
     font-size: 20px;
 }
+.col h4:hover{
+    text-decoration: underline;
+}
 
 .col a{
     text-decoration: none;
@@ -451,9 +506,15 @@ footer{
     padding: 10px 0px;
     font-size: 14px;
 }
+.col a:hover{
+    color: gray;
+}
 
 
 .lang{
     padding-top: 40px;
     color: gray;
+}
+.lang:hover{
+    color: white;
 }
